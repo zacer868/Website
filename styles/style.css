@@ -23,6 +23,7 @@
 
 .ul {
   list-style: none;
+  font-weight: 300;
 }
 html {
   font-size: 50.5%;
@@ -80,6 +81,7 @@ section {
 
 .header .navbar a {
   font-size: 3rem;
+  font-weight: 900;
   color: rgb(0, 0, 0);
   margin-left: 2rem;
 }
@@ -116,10 +118,10 @@ section {
 }
 
 .home-slider {
-  margin-top: 5rem;
   overflow: hidden;
   height: auto;
   width: 400px;
+  margin-bottom: 5rem;
 }
 
 .swiper-wrapper {
@@ -313,6 +315,12 @@ section {
 #main {
   padding-top: 80px;
   box-sizing: border-box;
+}
+
+.footcontainer {
+  background-color: antiquewhite;
+  width: auto;
+  height: 200px;
 }
 
 /* media queries */
