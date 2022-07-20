@@ -91,6 +91,10 @@ section {
   color: var(--main-color);
 }
 
+.navbar {
+  font-size: 40.5%;
+}
+
 #menu-bars {
   font-size: 3rem;
   color: rgb(0, 0, 0);
@@ -119,7 +123,7 @@ section {
 }
 
 .home-slider {
-  overflow: hidden;
+  overflow: scroll;
   height: auto;
   width: 400px;
   margin-bottom: 5rem;
@@ -127,7 +131,6 @@ section {
 
 .swiper-wrapper {
   width: 1200px;
-  overflow: visible;
 }
 
 .swiper-slide img {
