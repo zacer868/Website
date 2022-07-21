@@ -422,3 +422,51 @@
     position: relative;
   }
 }
+
+@media (max-width: 365px) {
+  .wrapper .search_box {
+    width: 280px;
+    background: #fff;
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .wrapper .search_box .dropdown {
+    width: 140px;
+    border-right: 2px solid #dde2f1;
+    color: #000000;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .blog-post_info {
+    width: 150px;
+  }
+}
+
+@media (max-width: 300px) {
+  .wrapper .search_box {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 260px) {
+  .wrapper .search_box {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 240) {
+  .wrapper .search_box {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 220px) {
+  .wrapper .search_box {
+    margin-left: 80px;
+  }
+}
