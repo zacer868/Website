@@ -320,6 +320,7 @@
     margin: 0.25rem 0.25rem;
     text-transform: uppercase;
     color: #fe5b4f;
+    padding-bottom: 0.35em;
   }
 }
 
@@ -359,6 +360,11 @@
   .default_option {
     width: 125px;
     padding-bottom: 2rem;
+    transform: translateY(-5px);
+  }
+
+  .dropdown:before {
+    transform: translateY(-5px);
   }
 
   .wrapper .search_box .dropdown ul {
@@ -444,6 +450,14 @@
 
   .blog-post_info {
     width: 150px;
+  }
+
+  .blog-post_text {
+    text-align: left;
+    margin-bottom: 1.25rem;
+    font-size: 1.35rem;
+    font-weight: bolder;
+    color: #000000b3;
   }
 }
 
