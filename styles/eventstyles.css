@@ -124,19 +124,6 @@
   align-items: center;
   justify-content: center;
 }
-.ad {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 50%;
-  right: 50%;
-  margin-bottom: 5rem;
-}
-
-.ad img {
-  width: 50%;
-  height: 50%;
-}
 
 .btn {
   margin: 3rem 2rem;
