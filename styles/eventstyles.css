@@ -457,6 +457,19 @@
     height: 100%;
     position: relative;
   }
+
+  .btn {
+    margin: 2rem 1.5rem;
+    display: inline-block;
+    padding: 0.75rem 1.8rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    color: #ef5050;
+    border: 1.5px solid #ef5050;
+    cursor: pointer;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 365px) {
@@ -488,6 +501,19 @@
     font-size: 1.35rem;
     font-weight: bolder;
     color: #000000b3;
+  }
+
+  .btn {
+    margin: 1.75rem 1.25rem;
+    display: inline-block;
+    padding: 0.5rem 1.3rem;
+    font-size: 1.2rem;
+    border-radius: 1.25rem;
+    background: transparent;
+    color: #ef5050;
+    border: 1.25px solid #ef5050;
+    cursor: pointer;
+    font-weight: 600;
   }
 }
 
