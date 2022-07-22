@@ -47,9 +47,40 @@
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".default_option").click(function () {
+          $(".dropdown ul").addClass("active");
+        });
+
+        $(".dropdown ul li").click(function () {
+          var text = $(this).text();
+          $(".default_option").text(text);
+          $(".dropdown ul").removeClass("active");
+        });
+      });
+    </script>
 
     <div class="wrapper">
       <div class="search_box">
+        <div class="dropdown">
+          <div class="default_option">Months</div>
+          <ul>
+            <li>All Months</li>
+            <li><a href="">January</a></li>
+            <li><a href="">Febraury</a></li>
+            <li><a href="">March</a></li>
+            <li><a href="">April</a></li>
+            <li><a href="">May</a></li>
+            <li><a href="">June</a></li>
+            <li><a href="">July</a></li>
+            <li><a href="">August</a></li>
+            <li><a href="">September</a></li>
+            <li><a href="">October</a></li>
+            <li><a href="">November</a></li>
+            <li><a href="">December</a></li>
+          </ul>
+        </div>
         <div class="search_field">
           <input type="text" class="input" placeholder="Search" />
           <i class="fas fa-search"></i>
@@ -57,31 +88,10 @@
       </div>
     </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">Months</button>
-      <div class="dropdown-content">
-        <a href="#">January</a>
-        <a href="#">February</a>
-        <a href="#">March</a>
-        <a href="#">April</a>
-        <a href="#">May</a>
-        <a href="#">June</a>
-        <a href="#">July</a>
-        <a href="#">August</a>
-        <a href="#">September</a>
-        <a href="#">October</a>
-        <a href="#">November</a>
-        <a href="#">December</a>
-      </div>
-    </div>
-
-    <!-- <div class="dropdown">
-      <button class="dropbtn">Event Type</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+    <!-- <div class="keywords">
+      <a href="" class="btn">Boat Ride</a>
+      <a href="" class="btn">Ladies Free</a>
+      <a href="" class="btn">Cooler Fette</a>
     </div> -->
 
     <div id="Jan">
